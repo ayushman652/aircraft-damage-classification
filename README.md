@@ -45,11 +45,11 @@ The plots below show the metrics from the reported 30-epoch run. The blue line i
 
 ### Accuracy
 
-![Training and validation accuracy across epochs](OUTPUTS/training_accuracy.png)
+![Training and validation accuracy across epochs](outputs/training_accuracy.png)
 
 ### Loss
 
-![Training and validation loss across epochs](OUTPUTS/training_loss.png)
+![Training and validation loss across epochs](outputs/training_loss.png)
 
 **Interpretation:** Training accuracy increases through the run. Validation accuracy improves more gradually and fluctuates, while validation loss trends downward overall. Early stopping monitors validation loss and restores the best observed weights when its stopping condition is met.
 
